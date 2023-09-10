@@ -1,0 +1,35 @@
+/* Style for cards */
+body{
+    background-color:rgb(34, 34, 34);
+}
+h2{
+    color:aliceblue
+}
+p{
+    color:aliceblue
+}
+img{
+    max-width: 80%;
+    max-height: 80%
+    }
+.card {
+    border: 5px solid rgb(64, 64, 64);
+    margin: 50px;
+    padding: 25px;
+    text-align: center;
+    box-shadow: 0 0 50px rgba(245, 32, 32, 0.2);
+}
+
+/* Add more styles for responsiveness */
+@media (min-width: 768px) {
+    .container {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .card {
+        width: calc(50% - 100px);
+        justify-content: center; /* Adjust as needed */
+    }
+}
